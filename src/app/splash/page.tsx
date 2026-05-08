@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 import Image from "next/image";
 
-import Footer from "../footer/Footer";
+import Footer from "../components/footer/Footer";
 
 import * as S from "./styles";
 
@@ -26,7 +26,7 @@ export default function Splash() {
 
         <S.Content>
           <Image
-            src="/images/812900.png"
+            src="/imagens/maca.png"
             alt="Logo Every Note"
             width={120}
             height={120}
