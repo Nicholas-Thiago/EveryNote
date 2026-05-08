@@ -11,7 +11,7 @@ export default function Menu() {
       <S.LogoArea>
 
         <Image
-          src="/public/imagens/812900.png"
+          src="/imagens/maca.png"
           alt="Logo Every Note"
           width={40}
           height={40}

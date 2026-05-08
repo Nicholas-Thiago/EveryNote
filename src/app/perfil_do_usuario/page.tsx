@@ -1,66 +1,149 @@
 "use client";
 
-import Link from "next/link";
-import * as S from "./styles";
 import Menu from "../components/menu/Menu";
 import Footer from "../components/footer/Footer";
 
-export default function cadastro() {
+import * as S from "./styles";
+
+export default function Perfil() {
   return (
     <>
       <Menu />
 
-      <main
-        style={{
-          minHeight: "calc(100vh - 140px)",
-          backgroundColor: "#111",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "20px",
-          color: "white",
-        }}
-      >
-        <h1
-          style={{
-            fontSize: "42px",
-            fontWeight: "bold",
-          }}
-        >
-          perfil do usuário
-        </h1>
+      <S.Container>
 
-        <S.Container>
+        <S.TopSection>
 
-            <S.LoginBox>
+          <S.Avatar />
 
-                <S.Input
-                    type="text"
-                    placeholder="Email ou nome de usuário"
-                />
+          <S.Title>
+            Meu EveryNote
+          </S.Title>
 
-            <S.Input
-                type="password"
-                placeholder="Senha"
-            />
+          <S.InfoRow>
 
-            <S.RegisterText>
-                Já faz parte do EveryNote?
+            <S.InfoBox>
+              <strong>Seguindo:</strong> 0
+            </S.InfoBox>
 
-            <Link href="./login">
-                Entrar
-            </Link>
-            </S.RegisterText>
+            <S.InfoBox>
+              <strong>Seguidores:</strong> 0
+            </S.InfoBox>
+
+            <S.InfoBox>
+              <strong>Avaliações:</strong> 0
+            </S.InfoBox>
+
+          </S.InfoRow>
+
+          <S.ButtonRow>
 
             <S.Button>
-                Continuar
+              Editar Perfil
             </S.Button>
 
-                </S.LoginBox>
+            <S.Button>
+              Compartilhar Perfil
+            </S.Button>
 
-                </S.Container>
-      </main>
+          </S.ButtonRow>
+
+        </S.TopSection>
+
+        <S.SectionTitle>
+          Continuar de onde parou
+        </S.SectionTitle>
+
+        <S.CardRow>
+
+          <S.Poster
+            src="/imagens/cabra.png"
+          />
+
+          <S.Poster
+            src="/imagens/diabo2.png"
+          />
+
+          <S.Poster
+            src="/imagens/michael.jpeg"
+          />
+
+          <S.Poster
+            src="/imagens/fnaf.jpg"
+          />
+
+        </S.CardRow>
+
+        <S.SectionTitle>
+          Minhas Avaliações
+        </S.SectionTitle>
+
+        <S.ReviewRow>
+
+          <S.ReviewCard>
+
+            <S.Poster
+              src="/imagens/estrelas.png"
+            />
+
+            <S.ReviewName>
+              Devoradores de Estrelas
+            </S.ReviewName>
+
+            <S.ReviewText>
+              ★: 5/5
+            </S.ReviewText>
+
+            <S.ReviewText>
+              “Simplesmente melhor filme sci-fi já produzido”
+            </S.ReviewText>
+
+
+          </S.ReviewCard>
+
+          <S.ReviewCard>
+
+            <S.Poster
+              src="/imagens/zootopia2.png"
+            />
+
+            <S.ReviewName>
+              Zootopia 2
+            </S.ReviewName>
+
+            <S.ReviewText>
+              ★: 3.5/5
+            </S.ReviewText>
+
+            <S.ReviewText>
+              “Uma continuação divertida!”
+            </S.ReviewText>
+
+          </S.ReviewCard>
+
+          <S.ReviewCard>
+
+            <S.Poster
+              src="/imagens/anel.jpg"
+            />
+
+            <S.ReviewName>
+              Senhor dos Anéis
+            </S.ReviewName>
+
+            <S.ReviewText>
+              ★: 5/5
+            </S.ReviewText>
+
+            <S.ReviewText>
+              “Final espetacular para uma trilogia incrivel”
+            </S.ReviewText>
+
+          </S.ReviewCard>
+
+        </S.ReviewRow>
+
+      </S.Container>
 
       <Footer />
     </>

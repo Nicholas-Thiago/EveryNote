@@ -2,92 +2,138 @@ import styled from "styled-components";
 
 export const Container = styled.main`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 
-  background-color: #4a4a4a;
+  background-color: #1e1e1e;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: white;
 `;
 
-export const LoginBox = styled.div`
-  width: 100%;
-  max-width: 520px;
+export const TopSection = styled.div`
+  background-color: #303030;
+
+  padding: 40px 0;
 
   display: flex;
   flex-direction: column;
-
-  gap: 14px;
+  align-items: center;
 `;
 
-export const Input = styled.input`
-  width: 100%;
-  height: 38px;
+export const Avatar = styled.div`
+  width: 120px;
+  height: 120px;
 
-  background-color: white;
+  background-color: #5a5a5a;
 
-  border: none;
-  border-radius: 6px;
+  border-radius: 50%;
 
-  padding: 0 12px;
-
-  font-size: 13px;
-  color: black;
-
-  outline: none;
-
-  &::placeholder {
-    color: #777;
-  }
+  margin-bottom: 15px;
 `;
 
-export const ForgotPassword = styled.p`
-  color: #7fd0ff;
+export const Title = styled.h1`
+  font-size: 28px;
 
-  font-size: 12px;
-
-  cursor: pointer;
-
-  margin-top: -5px;
+  margin-bottom: 20px;
 `;
 
-export const RegisterText = styled.p`
-  color: white;
-
-  font-size: 12px;
-
+export const InfoRow = styled.div`
   display: flex;
-  gap: 5px;
 
-  a {
-    color: #7fd0ff;
-    text-decoration: none;
-    font-weight: bold;
+  gap: 30px;
+
+  margin-bottom: 20px;
+`;
+
+export const InfoBox = styled.div`
+  text-align: center;
+
+  strong {
+    color: white;
   }
+`;
+
+export const ButtonRow = styled.div`
+  display: flex;
+
+  gap: 15px;
 `;
 
 export const Button = styled.button`
-  width: 100%;
-  height: 42px;
+  background-color: #4a4a4a;
 
-  background-color: #3d9cff;
+  padding: 10px 20px;
 
   border: none;
   border-radius: 6px;
 
   color: white;
 
-  font-size: 14px;
-  font-weight: bold;
-
   cursor: pointer;
+
+  font-size: 14px;
 
   transition: 0.3s;
 
-  margin-top: 5px;
-
   &:hover {
-    opacity: 0.9;
+    opacity: 0.8;
   }
+`;
+
+export const SectionTitle = styled.h2`
+  background-color: #666;
+
+  padding: 15px;
+
+  font-size: 22px;
+  font-weight: bold;
+`;
+
+export const CardRow = styled.div`
+  display: flex;
+
+  gap: 30px;
+
+  justify-content: center;
+
+  padding: 25px 0;
+
+  background-color: #2f2f2f;
+`;
+
+export const Poster = styled.img`
+  width: 140px;
+
+  border-radius: 8px;
+`;
+
+export const ReviewRow = styled.div`
+  display: flex;
+
+  gap: 40px;
+
+  justify-content: center;
+
+  padding: 35px 0;
+
+  background-color: #2f2f2f;
+`;
+
+export const ReviewCard = styled.div`
+  width: 180px;
+
+  text-align: center;
+`;
+
+export const ReviewName = styled.p`
+  margin-top: 12px;
+
+  font-weight: bold;
+
+  font-size: 15px;
+`;
+
+export const ReviewText = styled.p`
+  font-size: 12px;
+
+  color: #ccc;
 `;
