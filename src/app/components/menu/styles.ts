@@ -42,10 +42,6 @@ export const Nav = styled.nav`
     font-size: 14px;
     transition: 0.3s;
   }
-
-  a:hover {
-    color: #9333ea;
-  }
 `;
 
 export const DropContent = styled.div`
@@ -100,8 +96,4 @@ export const DropButton = styled.button`
   cursor: pointer;
 
   transition: 0.3s;
-
-  &:hover {
-    color: #9333ea;
-  }
 `;

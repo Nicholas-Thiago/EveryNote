@@ -60,7 +60,7 @@ export default function Login() {
             </Link>
             </S.RegisterText>
 
-            <S.Button onClick={() => router.push("./perfil_do_usuario")}>
+            <S.Button>
                 Continuar
             </S.Button>
 

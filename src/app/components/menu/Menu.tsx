@@ -23,9 +23,9 @@ export default function Menu() {
       <S.Nav>
         <Link href="/">Início</Link>
 
-        <Link href="/livros">Livros</Link>
+        <Link href="#">Livros</Link>
 
-        <Link href="/filmes">Filmes</Link>
+        <Link href="#">Filmes</Link>
 
         <S.Dropdown>
           <S.DropButton>
@@ -37,7 +37,7 @@ export default function Menu() {
               Login/Cadastro
             </Link>
 
-            <Link href="/perfil_do_usuario">
+            <Link href="#">
               Perfil do Usuário
             </Link>
           </S.DropContent>
