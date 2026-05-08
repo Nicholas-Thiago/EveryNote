@@ -48,30 +48,6 @@ export const Nav = styled.nav`
   }
 `;
 
-export const Dropdown = styled.div`
-  position: relative;
-
-  &:hover div {
-    display: flex;
-  }
-`;
-
-export const DropButton = styled.button`
-  background: none;
-  border: none;
-
-  color: white;
-  font-size: 14px;
-
-  cursor: pointer;
-
-  transition: 0.3s;
-
-  &:hover {
-    color: #9333ea;
-  }
-`;
-
 export const DropContent = styled.div`
   display: none;
 
@@ -103,5 +79,29 @@ export const DropContent = styled.div`
 
   a:hover {
     background-color: #9333ea;
+  }
+`;
+
+export const Dropdown = styled.div`
+  position: relative;
+
+  &:hover ${DropContent} {
+  display: flex;
+}
+`;
+
+export const DropButton = styled.button`
+  background: none;
+  border: none;
+
+  color: white;
+  font-size: 14px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  &:hover {
+    color: #9333ea;
   }
 `;

@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 import Image from "next/image";
 
-import Footer from "../footer/footer";
+import Footer from "../footer/Footer";
 
 import * as S from "./styles";
 
@@ -35,15 +35,7 @@ export default function Splash() {
           <S.Title>Every Note</S.Title>
 
           <S.Subtitle>
-            Livros e Filmes em só um lugar.
-          </S.Subtitle>
-          
-          <S.Subtitle>
               Descubra, avalie e compartilhe.
-          </S.Subtitle>
-
-          <S.Subtitle>
-              Se cadastre hoje e não perca mais um mundo de novidades.
           </S.Subtitle>
         </S.Content>
 
