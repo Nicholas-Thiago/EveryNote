@@ -1,7 +1,7 @@
 "use client";
 
 import Menu from "../components/menu/Menu";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 import * as S from "./styles";
 
