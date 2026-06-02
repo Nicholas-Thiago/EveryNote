@@ -66,9 +66,11 @@ export const ActionButton = styled.button`
   border-radius: 6px;
   color: white;
   cursor: pointer;
+  transition: 0.3s;
 
   &:hover {
     opacity: 0.8;
+    background-color: #9333ea;
   }
 `;
 
@@ -95,5 +97,6 @@ export const Avatar = styled.div`
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #666;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1077/1077114.png");
+  background-size: cover;
 `;

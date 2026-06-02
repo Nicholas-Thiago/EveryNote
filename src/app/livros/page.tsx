@@ -36,7 +36,7 @@ export default function Livros() {
                     <span>500</span>
                 </S.ActionItem>
 
-                <S.ActionItem>
+                <S.ActionItem >
                     <FaHeart />
                     <span>315</span>
                 </S.ActionItem>
