@@ -103,7 +103,7 @@ export const CardRow = styled.div`
 
 export const Poster = styled.img`
   width: 140px;
-
+  cursor: pointer;
   border-radius: 8px;
 `;
 

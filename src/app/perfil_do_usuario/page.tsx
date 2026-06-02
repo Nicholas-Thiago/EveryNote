@@ -84,7 +84,8 @@ export default function Perfil() {
 
           <S.ReviewCard>
 
-            <S.Poster onClick={() => router.push("./avaliacao")}
+            <S.Poster 
+              onClick={() => router.push("./avaliacao")}
               src="/imagens/estrelas.png"
             />
 
