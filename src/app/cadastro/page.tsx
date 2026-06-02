@@ -7,7 +7,7 @@ import Footer from "../components/Footer/Footer";
 import { useRouter } from "next/navigation";
 import {useState} from "react";
 
-export default function cadastro() {
+export default function Cadastro() {
     
     const router = useRouter();  
 

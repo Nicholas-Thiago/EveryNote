@@ -1,6 +1,6 @@
-import { redirect } from "next/navigation";
+
 
 export default function Home() {
   
-  redirect("/splash");
+ return <h1>Home</h1>;
 }
