@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 import Image from "next/image";
 
-import Footer from "../components/footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 import * as S from "./styles";
 

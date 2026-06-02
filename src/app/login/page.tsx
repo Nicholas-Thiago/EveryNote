@@ -3,7 +3,7 @@
 import Link from "next/link";
 import * as S from "./styles";
 import Menu from "../components/menu/Menu";
-import Footer from "../components/footer/Footer";
+import Footer from "../components/Footer/Footer";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
