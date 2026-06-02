@@ -26,7 +26,7 @@ export default function Livros() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/yU0gH6L.png"
+              src="https://m.media-amazon.com/images/I/81ibfYk4qmL.jpg"
             />
 
                 <S.Actions>
@@ -48,7 +48,7 @@ export default function Livros() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/HwnXkGX.png"
+              src="https://m.media-amazon.com/images/I/91RQ5d-eIqL._AC_UF1000,1000_QL80_.jpg"
             />
 
                 <S.Actions>
@@ -70,7 +70,7 @@ export default function Livros() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/fX4T0G3.png"
+              src="https://upload.wikimedia.org/wikipedia/pt/0/0c/Dias-de-cao.jpg"
             />
 
                 <S.Actions>
@@ -92,7 +92,7 @@ export default function Livros() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/KuMCh3p.png"
+              src="http://localhost:3000/imagens/fnaf.jpg"
             />
 
                 <S.Actions>
@@ -114,7 +114,7 @@ export default function Livros() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/hVZ4e4T.png"
+              src="https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg"
             />
 
                 <S.Actions>
@@ -144,7 +144,7 @@ export default function Livros() {
           <S.BookCardLarge>
 
             <S.CoverLarge
-              src="https://i.imgur.com/vJgD00H.png"
+              src="https://m.media-amazon.com/images/I/51GRmbc4mCL._SY445_SX342_ML2_.jpg"
             />
 
           </S.BookCardLarge>
@@ -152,7 +152,7 @@ export default function Livros() {
           <S.BookCardLarge>
 
             <S.CoverLarge
-              src="https://i.imgur.com/DxE9p0A.png"
+              src="https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788535943993/pao-dos-anjos.jpg"
             />
 
           </S.BookCardLarge>

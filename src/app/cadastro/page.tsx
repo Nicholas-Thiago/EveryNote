@@ -5,10 +5,22 @@ import * as S from "./styles";
 import Menu from "../components/menu/Menu";
 import Footer from "../components/footer/Footer";
 import { useRouter } from "next/navigation";
+import {useState} from "react";
 
 export default function cadastro() {
-  
+    
     const router = useRouter();  
+
+    const [senha, setSenha] = useState("");
+    const [erro, setErro] = useState("");
+    
+    function handleContinuar() {
+      if (senha.length < 6) {
+        setErro("Senha deve ter pelo menos 6 caracteres");
+      return;
+      }
+      router.push("./perfil_do_usuario");
+    }
     return (
     <>
       <Menu />
@@ -44,9 +56,13 @@ export default function cadastro() {
                 />
 
             <S.Input
-                type="password"
-                placeholder="Senha"
+              type="password"
+              placeholder="Senha"
+              value={senha}
+              onChange={(e) => setSenha(e.target.value)}
             />
+
+            {erro && <p style={{ color: "#ff5555", fontSize: "14px" }}>{erro}</p>}
 
             <S.RegisterText>
                 Já faz parte do EveryNote?
@@ -56,9 +72,7 @@ export default function cadastro() {
             </Link>
             </S.RegisterText>
 
-            <S.Button onClick={() => router.push("./perfil_do_usuario")}>
-                Continuar
-            </S.Button>
+            <S.Button onClick={handleContinuar}>Continuar</S.Button>
 
                 </S.LoginBox>
 

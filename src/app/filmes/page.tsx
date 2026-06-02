@@ -26,7 +26,7 @@ export default function Filmes() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/yU0gH6L.png"
+              src="http://localhost:3000/imagens/cabra.png"
             />
 
                 <S.Actions>
@@ -48,7 +48,7 @@ export default function Filmes() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/HwnXkGX.png"
+              src="http://localhost:3000/imagens/diabo2.png"
             />
 
                 <S.Actions>
@@ -92,7 +92,7 @@ export default function Filmes() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/KuMCh3p.png"
+              src="https://br.web.img3.acsta.net/c_310_420/img/f8/94/f894e8b434709a541988836e4408491b.jpg"
             />
 
                 <S.Actions>
@@ -114,7 +114,7 @@ export default function Filmes() {
           <S.BookCard>
 
             <S.Cover
-              src="https://i.imgur.com/hVZ4e4T.png"
+              src="https://upload.wikimedia.org/wikipedia/pt/8/8b/Backrooms_%28filme%29.webp"
             />
 
                 <S.Actions>
@@ -144,7 +144,7 @@ export default function Filmes() {
           <S.BookCardLarge>
 
             <S.CoverLarge
-              src="https://i.imgur.com/vJgD00H.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJ_bNuSq4i_POMAlZqNANhbXDP6BNOkEl8Q&s"
             />
 
           </S.BookCardLarge>
@@ -152,7 +152,7 @@ export default function Filmes() {
           <S.BookCardLarge>
 
             <S.CoverLarge
-              src="https://i.imgur.com/DxE9p0A.png"
+              src="https://upload.wikimedia.org/wikipedia/pt/e/ee/Avengers_Doomsday_poster.jpg"
             />
 
           </S.BookCardLarge>

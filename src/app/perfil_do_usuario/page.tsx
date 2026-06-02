@@ -2,10 +2,12 @@
 
 import Menu from "../components/menu/Menu";
 import Footer from "../components/footer/Footer";
+import { useRouter } from "next/navigation";
 
 import * as S from "./styles";
 
 export default function Perfil() {
+  const router = useRouter();
   return (
     <>
       <Menu />
@@ -82,7 +84,7 @@ export default function Perfil() {
 
           <S.ReviewCard>
 
-            <S.Poster
+            <S.Poster onClick={() => router.push("./avaliacao")}
               src="/imagens/estrelas.png"
             />
 

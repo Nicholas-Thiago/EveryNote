@@ -23,7 +23,8 @@ export const Avatar = styled.div`
   width: 120px;
   height: 120px;
 
-  background-color: #5a5a5a;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1077/1077114.png");
+  background-size: cover;
 
   border-radius: 50%;
 
